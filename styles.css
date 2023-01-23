@@ -19,9 +19,12 @@ body {
     display: grid;
     gap: 1px;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
 }
 .grid-item {
     color: white;
+    align-items: center;
+    
 }
 div > div {
     padding: auto;
