@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header {
+    background-color: red;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.grid-container {
+    background-color: white;
+}
+.grid {
+    background-color: black;    
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-item {
+    color: white;
+}
+div > div {
+    padding: auto;
+    background-color: #ccc;
+  }
