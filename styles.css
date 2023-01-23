@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: grey;
+    background-image: linear-gradient(red, yellow); 
     font-family: 'Courier New', Courier, monospace;
 }
 .header {
@@ -24,7 +24,7 @@ body {
 .grid-item {
     color: white;
     align-items: center;
-    
+
 }
 div > div {
     padding: auto;
